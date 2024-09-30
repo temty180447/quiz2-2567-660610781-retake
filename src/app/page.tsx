@@ -15,7 +15,7 @@ export default function Home() {
         style={{ maxWidth: "700px" }}
         className="mx-auto p-3 rounded rounded-3 shadow-sm bg-white"
       >
-        <PostOwnner postImagePath="/profileImages/Temty.jpg" fullName="Phetmongkhon Rungrat" studentID="660610781" postDesc="Quiz ง่ายจังเลยครับ ขอยาก ๆ กว่านี้ได้ไหม #261207" likes={100} />
+        <PostOwnner postImagePath="/profileImages/Temty.jpg" fullName="Phetmongkhon Rungrat" studentID="660610781" postDesc="Quiz ง่ายจังเลยครับ ขอยาก ๆ กว่านี้ได้ไหม #261207" likeNum={100} />
 
         {comments.map(comment => {
           return <Comment {...comment} key={comment.username} />
